@@ -1,0 +1,12 @@
+装饰器模式允许用户向现有对象添加新功能而不改变其结构。
+这种类型的设计模式属于结构模式，因为此模式充当现有类的包装器。
+此模式创建一个装饰器类，它包装原始类并提供附加功能，保持类方法签名完整。
+我们通过以下示例展示装饰器模式的使用，其中我们将用一些颜色装饰形状而不改变形状类。
+
+在这个实例中，将创建一个Shape接口和实现Shape接口的具体类。
+然后再创建一个抽象装饰器类ShapeDecorator，实现Shape接口并使用Shape对象作为其实例变量。
+这里的RedShapeDecorator是实现ShapeDecorator的具体类。
+DecoratorPatternDemo这是一个演示类，将使用RedShapeDecorator来装饰Shape对象
+
+代码源自网络
+https://www.yiibai.com/design_pattern/decorator_pattern.html

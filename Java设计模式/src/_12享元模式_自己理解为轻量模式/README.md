@@ -1,0 +1,17 @@
+享元模式(Flyweight Pattern)主要用于减少创建的对象数量，并减少内存占用并提高性能。
+这种类型的设计模式属于结构模式，因为该模式提供了减少对象计数的方法，从而改善应用的对象结构。
+享元模式(Flyweight Pattern)尝试通过存储已经存在的类似对象以重用，并在找不到匹配的对象时创建新对象。
+我们将通过绘制不同位置的20个圆圈来演示这种模式，但是这里只创建5个对象。
+只有5种颜色可用，因此color属性用于检查已经存在的Circle对象.
+
+在这个实例中，将创建一个Shape接口和一个实现Shape接口的具体类Circle。
+在下一步中将定义一个工厂类ShapeFactory。
+ShapeFactory有一个HashMap的Circle作为Circle对象的颜色。
+每当一个请求向ShapeFactory创建一个指定颜色的圆形时，它会检查HashMap中的圆形对象，
+如果找到对象则返回这个对象，否则就会创建一个新对象然后存储在hashmap中以供将来使用，
+并返回这个新创建的对象给客户端。
+FlyWeightPatternDemo这是一个演示类，将使用ShapeFactory来获取一个Shape对象。
+它将信息（红色/绿色/蓝色/黑色/白色）传递给ShapeFactory以获得所需颜色的圆形。
+
+代码源自网络
+https://www.yiibai.com/design_pattern/flyweight_pattern.html
