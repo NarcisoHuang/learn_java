@@ -1,0 +1,10 @@
+迭代器模式是Java和.Net编程环境中非常常用的设计模式。
+此模式用于以顺序方式访问集合对象的元素，而不需要知道其底层表示。
+迭代器模式属于行为模式类别。
+
+在这个实例中，将创建一个Iterator接口，它陈述了一个导航方法和一个Container接口，以及返回迭代器。
+实现Container接口的具体类将负责实现Iterator接口并使用它。
+IteratorPatternDemo这是一个演示类，将使用一个具体的实现类-NamesRepository，打印一个存储在NamesRepository集合中的Names。
+
+代码源自网络
+https://www.yiibai.com/design_pattern/java_iterator_pattern.html

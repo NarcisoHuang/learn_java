@@ -1,0 +1,13 @@
+解释器模式提供了一种评估计算语言语法或表达式的方法。
+这种类型的模式属于行为模式。
+这种模式涉及实现一个表达式接口，它告诉解释一个指定的上下文。
+此模式用于SQL解析，符号处理引擎等。
+
+我们将创建一个接口Expression并且在具体的类实现这个Expression接口。
+定义了一个TerminalExpression类，用作所讨论的上下文的主解释器。
+其他的类 - OrExpression和AndExpression用于创建组合表达式。
+
+InterpreterPatternDemo这是一个演示类，将使用Expression类来创建规则并演示表达式的解析。
+
+代码源自网络
+https://www.yiibai.com/design_pattern/interpreter_pattern.html
