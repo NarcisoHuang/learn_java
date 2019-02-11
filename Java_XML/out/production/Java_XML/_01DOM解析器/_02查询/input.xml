@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<class>
+    <supercars company="Ferrari">
+        <carname type="formula one">Ferarri 101</carname>
+        <carname type="sports car">Ferarri 201</carname>
+        <carname type="sports car">Ferarri 301</carname>
+    </supercars>
+
+    <supercars company="Lamborgini">
+        <carname type="">Lamborgini 001</carname>
+        <carname type="">Lamborgini 002</carname>
+        <carname type="">Lamborgini 003</carname>
+    </supercars>
+
+    <luxurycars company="Benteley">
+        <carname>Benteley 1</carname>
+        <carname>Benteley 2</carname>
+        <carname>Benteley 3</carname>
+    </luxurycars>
+
+</class>
